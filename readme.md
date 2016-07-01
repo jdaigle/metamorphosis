@@ -3,6 +3,14 @@
 [***Die Verwandlung***](https://en.wikipedia.org/wiki/The_Metamorphosis) is an
 experimental .NET Client for [Apache Kafka](http://kafka.apache.org/).
 
+The project aims to build a high performance client with a feature set similar
+to [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis).
+Specifically: a
+"High performance multiplexed design, allowing for efficient use of shared connections from multiple calling threads"
+and
+"Full dual programming model both synchronous and asynchronous usage, without requiring "sync over async" usage of the TPL".
+In addition, Metamorphosis should fully abstract the management of consumers and consumer groups.
+
 # Requirements
 
 Metamorphosis currently is currently build with .NET 4.6.1
