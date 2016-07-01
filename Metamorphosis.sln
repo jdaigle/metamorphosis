@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamorphosis", "Metamorphosis\Metamorphosis.csproj", "{90CB3285-18C8-4EF9-835E-CB696D927623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metamorphosis.Console", "Metamorphosis.Console\Metamorphosis.Console.csproj", "{4E8FB85C-44F2-4D44-B266-D60C0B48CD1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{814BCB9E-A032-4DF4-8640-C4E80982831E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90CB3285-18C8-4EF9-835E-CB696D927623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CB3285-18C8-4EF9-835E-CB696D927623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CB3285-18C8-4EF9-835E-CB696D927623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CB3285-18C8-4EF9-835E-CB696D927623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8FB85C-44F2-4D44-B266-D60C0B48CD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8FB85C-44F2-4D44-B266-D60C0B48CD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8FB85C-44F2-4D44-B266-D60C0B48CD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8FB85C-44F2-4D44-B266-D60C0B48CD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
